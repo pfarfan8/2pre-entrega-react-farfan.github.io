@@ -13,7 +13,7 @@ function App() {
     <NavBar/>
     <Routes>
       <Route path = "/" element={<ItemListConteiner greeting = "Ventas de celulares"/>}/>
-      <Route path = "/category/:id" element={<ItemListConteiner greeting = "Ventas de celulares"/>}/>
+      <Route path = "/categoria/:id" element={<ItemListConteiner greeting = "Productos"/>}/>
       <Route path = "/items/:id" element={<ItemDetailConteiner/> } />
 
     
